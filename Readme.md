@@ -8,6 +8,10 @@ Human activity are to be recognised through PoseNet, a deep Convolutional Neural
 4. Yoga
 5. Workout
 
+# Programming Language
+
+1. Python3
+
 # Questions
 For questions, reach me on <a href="https://linkedin.com/in/MadhuPIoT">LinkedIn</a>
 
