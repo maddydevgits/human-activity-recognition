@@ -114,7 +114,7 @@ with mp_pose.Pose(min_detection_confidence=0.3, min_tracking_confidence=0.8) as 
                 stage='sitting'
             
             elif ((lsangle>70 and lsangle<100) or (rsangle>80 and rsangle<110)):
-                stage='yoga'
+                stage='T pose'
             
             elif((lsangle>20 and lsangle<35) or (rsangle>30 and rsangle<40)):
                 stage='workout'
@@ -123,6 +123,13 @@ with mp_pose.Pose(min_detection_confidence=0.3, min_tracking_confidence=0.8) as 
                 counter+=1
                 if counter > 1:
                     stage='walking'
+            elif((langle>170 and langle<185)and (rangle>170 and rangle<180)and (lsangle>150 and lsangle<180)and(rsangle>10 and rsangle<20)):
+                stage="konasana"
+            elif((langle>130 and langle<150)and (rangle>130 and rangle<145)and (lsangle>165 and lsangle<180)and(rsangle>160 and rsangle<180)):
+                stage="tree pose"
+            elif((langle>158 and langle<175)and (rangle>160 and rangle<173)and (lsangle>9 and lsangle<15)and(rsangle>5 and rsangle<10)):
+                stage="thunderbolt"
+            
             
             else:
                 stage='standing'
