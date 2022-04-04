@@ -14,4 +14,3 @@ Human activity are to be recognised through PoseNet, a deep Convolutional Neural
 
 # Questions
 For questions, reach me on <a href="https://linkedin.com/in/MadhuPIoT">LinkedIn</a>
-
